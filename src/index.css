@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=inter:wght@100;200;300;400;500;600;700;800;900&family=syne:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=syne:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -25,7 +27,7 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-16 px-8 sm:py-[50px] py-12;
   }
 
   .padding-x {
@@ -53,6 +55,17 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-inter text-slate-gray text-lg leading-7;
   }
+}
+
+@font-face {
+  font-family: "mytupi";
+  src:
+    local("mytupi"),
+    url("./fonts/mytupi.ttf") format("truetype");
+}
+
+.font-mytupi {
+  font-family: "mytupi", sans-serif;
 }
