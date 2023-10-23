@@ -1,4 +1,4 @@
-# Nike Landing Page
+# Nike - E-Commerce Landing Page
 
 Welcome to the repository for the Nike Shoe E-commerce Landing Page. Crafted with precision, this responsive landing page is designed to offer an immersive shopping experience across computers, tablets, and mobile devices.
 
